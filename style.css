@@ -14,7 +14,18 @@ header {
     background-color: #FBD914;
     height: 25px;
     font-size: 15px;
-}   
+}
+@media screen and (max-width: 949px) {
+    .top-bar {
+     font-size: 10px
+    }
+  } 
+  @media screen and (max-width: 400px) {
+    .top-bar {
+     font-size: 5px;
+     padding-top: 4px;
+    }
+  }  
 .header-area{
     background-color: rgb(255, 255, 255);
     display: flex;
