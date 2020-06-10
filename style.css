@@ -1,0 +1,130 @@
+html,
+body{
+    background-color: white;
+}
+header {
+    -webkit-box-shadow: 0px 10px 15px -6px rgba(156,156,156,1);
+    -moz-box-shadow: 0px 10px 15px -6px rgba(156,156,156,1);
+    box-shadow: 0px 10px 15px -6px rgba(156,156,156,1);
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBD914;
+    height: 25px;
+    font-size: 15px;
+}   
+.header-area{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 10px 0 0 20px;
+}
+#navbarNav{
+    padding-right: 60px;
+}
+#navbarNav a{
+    font-size: 30px; 
+    color: #0058AB;
+    font: bold;
+    padding-left: 40px;
+}
+#navbarNav a:hover{
+    color:#FBD914 ;
+}
+.cart i{
+    font-size: 25px;
+    color: #0058AB;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 0 0;
+}
+.top{
+    display: flex;
+    justify-content: start;
+    
+    
+}
+.top a{
+    padding-left: 15px;
+}
+.cart i{
+    font-size: 30px;
+    padding: 10px 5px 0 5px;
+}
+.cart i:hover{
+    color:#FBD914 ;
+    text-decoration: none;
+}
+/* MAINNNNNN */
+.slider{
+    height: 100%;
+    position:relative;
+    width: 100%;
+}
+.medium{
+    padding-top: 50px;
+}
+.medium-lp input:hover{
+    border: none;
+    background-color:#FBD914
+}
+.medium-lp{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.small-slider{
+    padding-top: 100px;
+}
+
+
+.mini{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.mini h3{
+    color:#0058AB;
+}
+.mini h3:hover{
+    color: #FBD914;
+}
+.mini input{
+    padding-bottom: 10px;
+    background-color: #0058AB;
+}
+.mini input:hover{
+    border: none;
+    background-color:#FBD914
+}
+.content{
+    padding-top: 100px;
+}
+.content-area h6{
+    color:#0058AB; 
+}
+.content-area input{
+    
+    margin-bottom: 10px;
+    background-color: #0058AB;
+}
+.content-area input:hover{
+    border: none;
+    background-color:#FBD914
+}
+
+/* Footer*/
+.footer{
+    background-color:#0058AB;;
+    height: 200px;
+    position:absolute;
+    width:100%;
+}
